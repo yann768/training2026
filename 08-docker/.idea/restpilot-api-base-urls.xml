@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RestPilotApiBaseUrls">
+    <option name="defaultBaseUrl" value="http://10.10.130.25:8080" />
+  </component>
+</project>

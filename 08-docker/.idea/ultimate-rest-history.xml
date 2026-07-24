@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UltimateRestHistory">
+    <items>
+      <historyItem>
+        <option name="timestamp" value="1784797160284" />
+        <request url="http://10.10.130.250:8080/api/stocks" />
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784797061982" />
+        <request url="http://10.10.130.25:8080/api/stocks" />
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784797037270" />
+        <request url="http://10.10.130.25:8080/api/stocks" />
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796975135" />
+        <request url="http://10.10.130.25:8080/api/stocks" />
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796859778" />
+        <request url="http://10.10.130.250:8080/api/stocks" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796828083" />
+        <request url="http://10.10.130.250:8080/api/stock" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796738214" />
+        <request url="http://10.10.130.250:8080/api/stock" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796721891" />
+        <request url="http://10.10.130.250:8082/api/stock" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796720416" />
+        <request url="http://10.10.130.250:8082/api/stock" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796715565" />
+        <request url="http://10.10.130.250:8080/api/stock" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1784796713262" />
+        <request url="http://10.10.130.250:8080/api/stock" bodyType="none">
+          <bodyContent />
+        </request>
+      </historyItem>
+    </items>
+  </component>
+</project>

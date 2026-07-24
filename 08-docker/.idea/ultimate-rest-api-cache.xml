@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UltimateRestApiCache">
+    <cachedApis>
+      <api method="GET" url="/api/stocks" className="com.stocks.controller.StockController" methodName="getAllStocks" moduleName="stock-lab-08" />
+      <api method="GET" url="/api/stocks/{id}" className="com.stocks.controller.StockController" methodName="getStockById" moduleName="stock-lab-08">
+        <params>
+          <param name="id" value="1" type="PATH" dataType="Long" />
+        </params>
+      </api>
+      <api method="POST" url="/api/stocks" className="com.stocks.controller.StockController" methodName="createStock" moduleName="stock-lab-08">
+        <params>
+          <param name="body" value="{ }" type="BODY" dataType="CreateStockRequest" />
+        </params>
+      </api>
+      <api method="GET" url="/api/stocks/{stockId}/prices" className="com.stocks.controller.PriceController" methodName="getPrices" moduleName="stock-lab-08">
+        <params>
+          <param name="stockId" value="1" type="PATH" dataType="Long" />
+        </params>
+      </api>
+      <api method="POST" url="/api/stocks/{stockId}/prices" className="com.stocks.controller.PriceController" methodName="addPrice" moduleName="stock-lab-08">
+        <params>
+          <param name="stockId" value="1" type="PATH" dataType="Long" />
+          <param name="body" value="{ }" type="BODY" dataType="AddPriceRequest" />
+        </params>
+      </api>
+    </cachedApis>
+  </component>
+</project>
