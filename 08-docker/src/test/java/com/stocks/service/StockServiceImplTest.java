@@ -33,9 +33,9 @@ public class StockServiceImplTest {
     @Test
     void testAddStockSuccess() {
         // Given
-        Stock newStock = new Stock(null, "AAPL", "Apple Inc.", 150.0);
+        Stock newStock = new Stock(null, "AAPL", "Apple Inc.", "Technology", "NASDAQ");
         when(stockRepository.findBySymbol("AAPL")).thenReturn(Optional.empty());
-        when(stockRepository.save(newStock)).thenReturn(new Stock(1L, "AAPL", "Apple Inc.", 150.0));
+        when(stockRepository.save(newStock)).thenReturn(new Stock(1L, "AAPL", "Apple Inc.", "Technology", "NASDAQ"));
 
         // When
         Stock result = stockService.addStock(newStock);
@@ -49,8 +49,8 @@ public class StockServiceImplTest {
     @Test
     void testAddStockWithDuplicateSymbol() {
         // Given
-        Stock existingStock = new Stock(1L, "AAPL", "Apple Inc.", 150.0);
-        Stock newStock = new Stock(null, "AAPL", "Apple Inc.", 155.0);
+        Stock existingStock = new Stock(1L, "AAPL", "Apple Inc.", "Technology", "NASDAQ");
+        Stock newStock = new Stock(null, "AAPL", "Apple Inc.", "Technology", "NASDAQ");
         when(stockRepository.findBySymbol("AAPL")).thenReturn(Optional.of(existingStock));
 
         // When & Then
